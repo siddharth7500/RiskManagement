@@ -34,6 +34,8 @@ Python 3.x
 Django 3.x or higher
 Django REST Framework
 Install Dependencies from req.txt
+
+### *** Create a folder named RiskManagement and clone the repo
 ###  cmd --> cd RiskManagement
 ###  cmd --> pip install -r requirements.txt
 ###  cmd --> pip list (to check packages are there)
