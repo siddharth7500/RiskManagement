@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "17b934c8-367c-464c-9e9c-249ab554380d",
+		"name": "RiskManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32397427"
+	},
+	"item": [
+		{
+			"name": "Create Risks",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Risk 3\",\n    \"state\":\"accepted\",\n    \"description\": \"test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8080/v1/risks"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Risks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8080/v1/risks"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Risks by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8080/v1/risks/ea7ca62f-88cf-46c4-b2a8-9ee5cf9aafe1"
+			},
+			"response": []
+		}
+	]
+}
